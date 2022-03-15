@@ -11,37 +11,37 @@
 namespace TiendaServicios.Api.Autores.Modelo
 {
     /// <summary>
-    /// 
+    /// Clase que implementa las propiedades de la entidad AutorLibro
     /// </summary>
     public class AutorLibro
     {
         /// <summary>
-        /// 
+        /// Obntiene o establece un valor para AutorLibroId
         /// </summary>
         public int AutorLibroId { get; set; }
 
         /// <summary>
-        /// 
+        /// Obntiene o establece un valor para Nombre
         /// </summary>
         public string Nombre { get; set; }
 
         /// <summary>
-        /// 
+        /// Obntiene o establece un valor para Apellido
         /// </summary>
         public string Apellido { get; set; }
 
         /// <summary>
-        /// 
+        /// Obntiene o establece un valor para FechaNacimiento
         /// </summary>
         public DateTime? FechaNacimiento { get; set; }
 
         /// <summary>
-        /// 
+        /// Obntiene o establece un valor para ListaGradoAcademico
         /// </summary>
         public ICollection<GradoAcademico> ListaGradoAcademico { get; set; }
 
         /// <summary>
-        /// 
+        /// Obntiene o establece un valor para AutorLibroGuid
         /// </summary>
         public string AutorLibroGuid { get; set; }
     }
