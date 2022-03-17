@@ -1,3 +1,6 @@
+global using System;
+global using Microsoft.AspNetCore.Builder;
+global using Microsoft.Extensions.Hosting;
 using MediatR;
 using Microsoft.EntityFrameworkCore;
 using TiendaServicios.API.CarritoCompras.Aplicacion;

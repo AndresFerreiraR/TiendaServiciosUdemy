@@ -12,8 +12,8 @@ using TiendaServicios.Api.Libros.Persistencia;
 namespace TiendaServicios.Api.Libros.Migrations
 {
     [DbContext(typeof(ContextoLibreria))]
-    [Migration("20220314233425_MigracionMSSQLFirst")]
-    partial class MigracionMSSQLFirst
+    [Migration("20220317164821_NuevaMigracionMSQL")]
+    partial class NuevaMigracionMSQL
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {

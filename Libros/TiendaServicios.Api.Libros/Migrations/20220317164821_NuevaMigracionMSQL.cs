@@ -5,7 +5,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace TiendaServicios.Api.Libros.Migrations
 {
-    public partial class MigracionMSSQLFirst : Migration
+    public partial class NuevaMigracionMSQL : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
@@ -16,7 +16,7 @@ namespace TiendaServicios.Api.Libros.Migrations
                     LibreriaMaterialId = table.Column<Guid>(type: "uniqueidentifier", nullable: false),
                     Titulo = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     FechaPublicacion = table.Column<DateTime>(type: "datetime2", nullable: true),
-                    AutorLirbo = table.Column<Guid>(type: "uniqueidentifier", nullable: true)
+                    AutorLibro = table.Column<Guid>(type: "uniqueidentifier", nullable: true)
                 },
                 constraints: table =>
                 {
